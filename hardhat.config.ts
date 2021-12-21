@@ -120,6 +120,14 @@ const userConfig: HardhatUserConfig = {
     fantomTestnet: {
       ...sharedNetworkConfig,
       url: `https://rpc.testnet.fantom.network/`,
+    },
+    andromeda: {
+      ...sharedNetworkConfig,
+      url: `https://andromeda.metis.io/?owner=1088`,
+    },
+    stardust: {
+      ...sharedNetworkConfig,
+      url: `https://stardust.metis.io/?owner=588`,
     }
   },
   deterministicDeployment,
